@@ -1,0 +1,2 @@
+C:\Users\kylej\Documents\PortfolioSSd\TCTDRequiem\Intermediate\Build\Win64\UnrealEditor\Development\TCTDRequiem\Definitions.TCTDRequiem.h
+C:\Users\kylej\Documents\PortfolioSSd\TCTDRequiem\Source\TCTDRequiem\TCTDRequiem.h

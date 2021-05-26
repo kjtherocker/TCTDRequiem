@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-TCTDRequiem.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\kylej\Documents\PortfolioSSd\TCTDRequiem\Intermediate\Build\Win64\TCTDRequiemEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\kylej\Documents\PortfolioSSd\TCTDRequiem\Intermediate\Build\Win64\UnrealEditor\Development\TCTDRequiem\TCTDRequiem.cpp.obj"
+"C:\Users\kylej\Documents\PortfolioSSd\TCTDRequiem\Intermediate\Build\Win64\UnrealEditor\Development\TCTDRequiem\TCTDRequiemGameModeBase.cpp.obj"
+"C:\Users\kylej\Documents\PortfolioSSd\TCTDRequiem\Intermediate\Build\Win64\UnrealEditor\Development\TCTDRequiem\TCTDRequiem.init.gen.cpp.obj"
+"C:\Users\kylej\Documents\PortfolioSSd\TCTDRequiem\Intermediate\Build\Win64\UnrealEditor\Development\TCTDRequiem\TCTDRequiemGameModeBase.gen.cpp.obj"
+"C:\Users\kylej\Documents\PortfolioSSd\TCTDRequiem\Intermediate\Build\Win64\UnrealEditor\Development\TCTDRequiem\Default.rc2.res"
+/OUT:"C:\Users\kylej\Documents\PortfolioSSd\TCTDRequiem\Intermediate\Build\Win64\UnrealEditor\Development\TCTDRequiem\UnrealEditor-TCTDRequiem.lib"
+/INCLUDE:IMPLEMENT_MODULE_TCTDRequiem
