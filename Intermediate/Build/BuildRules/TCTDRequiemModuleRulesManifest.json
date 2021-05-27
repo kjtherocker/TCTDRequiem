@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\kylej\\Documents\\PortfolioSSd\\TCTDRequiem\\Source\\TCTDRequiem\\TCTDRequiem.Build.cs",
-		"C:\\Users\\kylej\\Documents\\PortfolioSSd\\TCTDRequiem\\Source\\TCTDRequiem.Target.cs",
-		"C:\\Users\\kylej\\Documents\\PortfolioSSd\\TCTDRequiem\\Source\\TCTDRequiemEditor.Target.cs"
+		"C:\\Users\\kylej\\Documents\\PortfolioSSd\\TCTDR\\Source\\TCTDRequiem\\TCTDRequiem.Build.cs",
+		"C:\\Users\\kylej\\Documents\\PortfolioSSd\\TCTDR\\Source\\TCTDRequiem.Target.cs",
+		"C:\\Users\\kylej\\Documents\\PortfolioSSd\\TCTDR\\Source\\TCTDRequiemEditor.Target.cs"
 	],
 	"EngineVersion": "5.0.0"
 }

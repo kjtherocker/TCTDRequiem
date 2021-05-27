@@ -1,0 +1,3 @@
+C:\Users\kylej\Documents\PortfolioSSd\TCTDR\Intermediate\Build\Win64\UnrealEditor\Development\TCTDRequiem\Definitions.TCTDRequiem.h
+C:\Users\kylej\Documents\PortfolioSSd\TCTDR\Source\TCTDRequiem\Enemy.h
+C:\Users\kylej\Documents\PortfolioSSd\TCTDR\Intermediate\Build\Win64\UnrealEditor\Inc\TCTDRequiem\Enemy.generated.h

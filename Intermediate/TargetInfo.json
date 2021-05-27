@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "TCTDRequiem",
-			"Path": "C:\\Users\\kylej\\Documents\\PortfolioSSd\\TCTDRequiem\\Source\\TCTDRequiem.Target.cs",
+			"Path": "C:\\Users\\kylej\\Documents\\PortfolioSSd\\TCTDR\\Source\\TCTDRequiem.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "TCTDRequiemEditor",
-			"Path": "C:\\Users\\kylej\\Documents\\PortfolioSSd\\TCTDRequiem\\Source\\TCTDRequiemEditor.Target.cs",
+			"Path": "C:\\Users\\kylej\\Documents\\PortfolioSSd\\TCTDR\\Source\\TCTDRequiemEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define TCTDREQUIEM_TCTDRequiemGameModeBase_generated_h
 
-#define TCTDRequiem_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_SPARSE_DATA
-#define TCTDRequiem_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_RPC_WRAPPERS
-#define TCTDRequiem_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define TCTDRequiem_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
+#define TCTDR_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_SPARSE_DATA
+#define TCTDR_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_RPC_WRAPPERS
+#define TCTDR_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define TCTDR_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATCTDRequiemGameModeBase(); \
 	friend struct Z_Construct_UClass_ATCTDRequiemGameModeBase_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(ATCTDRequiemGameModeBase)
 
 
-#define TCTDRequiem_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_INCLASS \
+#define TCTDR_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesATCTDRequiemGameModeBase(); \
 	friend struct Z_Construct_UClass_ATCTDRequiemGameModeBase_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(ATCTDRequiemGameModeBase)
 
 
-#define TCTDRequiem_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_STANDARD_CONSTRUCTORS \
+#define TCTDR_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ATCTDRequiemGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ATCTDRequiemGameModeBase) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define TCTDRequiem_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
+#define TCTDR_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ATCTDRequiemGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -60,28 +60,28 @@ public: \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ATCTDRequiemGameModeBase)
 
 
-#define TCTDRequiem_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET
-#define TCTDRequiem_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_12_PROLOG
-#define TCTDRequiem_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_GENERATED_BODY_LEGACY \
+#define TCTDR_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET
+#define TCTDR_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_12_PROLOG
+#define TCTDR_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TCTDRequiem_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
-	TCTDRequiem_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_SPARSE_DATA \
-	TCTDRequiem_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_RPC_WRAPPERS \
-	TCTDRequiem_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_INCLASS \
-	TCTDRequiem_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_STANDARD_CONSTRUCTORS \
+	TCTDR_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
+	TCTDR_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_SPARSE_DATA \
+	TCTDR_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_RPC_WRAPPERS \
+	TCTDR_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_INCLASS \
+	TCTDR_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define TCTDRequiem_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_GENERATED_BODY \
+#define TCTDR_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TCTDRequiem_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
-	TCTDRequiem_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_SPARSE_DATA \
-	TCTDRequiem_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	TCTDRequiem_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
-	TCTDRequiem_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
+	TCTDR_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
+	TCTDR_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_SPARSE_DATA \
+	TCTDR_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	TCTDR_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
+	TCTDR_Source_TCTDRequiem_TCTDRequiemGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -89,7 +89,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> TCTDREQUIEM_API UClass* StaticClass<class ATCTDRequiemGameModeBase>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID TCTDRequiem_Source_TCTDRequiem_TCTDRequiemGameModeBase_h
+#define CURRENT_FILE_ID TCTDR_Source_TCTDRequiem_TCTDRequiemGameModeBase_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

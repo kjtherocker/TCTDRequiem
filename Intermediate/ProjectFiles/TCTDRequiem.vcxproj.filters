@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TCTDRequiem.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{691FC7F9-7713-41B7-9C2C-B098450F57E0}</UniqueIdentifier>
+      <UniqueIdentifier>{D2361BF5-D3A8-40DE-B256-1369912DE6D2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TCTDRequiem.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,11 @@
     <None Include="..\..\Source\TCTDRequiemEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\README.md" />
     <Filter Include="Config">
-      <UniqueIdentifier>{B91C8F2E-C433-42F6-B7A3-7218C85ED407}</UniqueIdentifier>
+      <UniqueIdentifier>{8E170558-893F-44CE-9420-D9AA6DCD181D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,8 +27,26 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TCTDRequiem">
-      <UniqueIdentifier>{286B5F25-100F-4059-BD2D-6BA53A8C07AD}</UniqueIdentifier>
+      <UniqueIdentifier>{3FCFFDC9-3C5E-47D3-904E-BC213AAADF5F}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\TCTDRequiem\Enemy.cpp">
+      <Filter>Source\TCTDRequiem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TCTDRequiem\Enemy.h">
+      <Filter>Source\TCTDRequiem</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TCTDRequiem\Projectile.cpp">
+      <Filter>Source\TCTDRequiem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TCTDRequiem\Projectile.h">
+      <Filter>Source\TCTDRequiem</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TCTDRequiem\Spawner.cpp">
+      <Filter>Source\TCTDRequiem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TCTDRequiem\Spawner.h">
+      <Filter>Source\TCTDRequiem</Filter>
+    </ClInclude>
     <None Include="..\..\Source\TCTDRequiem\TCTDRequiem.Build.cs">
       <Filter>Source\TCTDRequiem</Filter>
     </None>
@@ -39,6 +60,24 @@
       <Filter>Source\TCTDRequiem</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\TCTDRequiem\TCTDRequiemGameModeBase.h">
+      <Filter>Source\TCTDRequiem</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TCTDRequiem\TowerDefencePlayer.cpp">
+      <Filter>Source\TCTDRequiem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TCTDRequiem\TowerDefencePlayer.h">
+      <Filter>Source\TCTDRequiem</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TCTDRequiem\TowerNode.cpp">
+      <Filter>Source\TCTDRequiem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TCTDRequiem\TowerNode.h">
+      <Filter>Source\TCTDRequiem</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TCTDRequiem\Turret.cpp">
+      <Filter>Source\TCTDRequiem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TCTDRequiem\Turret.h">
       <Filter>Source\TCTDRequiem</Filter>
     </ClInclude>
   </ItemGroup>
