@@ -13,10 +13,18 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define TCTDREQUIEM_Spawner_generated_h
 
-#define TCTDR_Source_TCTDRequiem_Spawner_h_12_SPARSE_DATA
-#define TCTDR_Source_TCTDRequiem_Spawner_h_12_RPC_WRAPPERS
-#define TCTDR_Source_TCTDRequiem_Spawner_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define TCTDR_Source_TCTDRequiem_Spawner_h_12_INCLASS_NO_PURE_DECLS \
+#define TCTDR_Source_TCTDRequiem_Spawner_h_15_SPARSE_DATA
+#define TCTDR_Source_TCTDRequiem_Spawner_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSpawnEnemy);
+
+
+#define TCTDR_Source_TCTDRequiem_Spawner_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSpawnEnemy);
+
+
+#define TCTDR_Source_TCTDRequiem_Spawner_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASpawner(); \
 	friend struct Z_Construct_UClass_ASpawner_Statics; \
@@ -25,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(ASpawner)
 
 
-#define TCTDR_Source_TCTDRequiem_Spawner_h_12_INCLASS \
+#define TCTDR_Source_TCTDRequiem_Spawner_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesASpawner(); \
 	friend struct Z_Construct_UClass_ASpawner_Statics; \
@@ -34,7 +42,7 @@ public: \
 	DECLARE_SERIALIZER(ASpawner)
 
 
-#define TCTDR_Source_TCTDRequiem_Spawner_h_12_STANDARD_CONSTRUCTORS \
+#define TCTDR_Source_TCTDRequiem_Spawner_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ASpawner(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ASpawner) \
@@ -47,7 +55,7 @@ private: \
 public:
 
 
-#define TCTDR_Source_TCTDRequiem_Spawner_h_12_ENHANCED_CONSTRUCTORS \
+#define TCTDR_Source_TCTDRequiem_Spawner_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ASpawner(ASpawner&&); \
@@ -58,28 +66,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ASpawner)
 
 
-#define TCTDR_Source_TCTDRequiem_Spawner_h_12_PRIVATE_PROPERTY_OFFSET
-#define TCTDR_Source_TCTDRequiem_Spawner_h_9_PROLOG
-#define TCTDR_Source_TCTDRequiem_Spawner_h_12_GENERATED_BODY_LEGACY \
+#define TCTDR_Source_TCTDRequiem_Spawner_h_15_PRIVATE_PROPERTY_OFFSET
+#define TCTDR_Source_TCTDRequiem_Spawner_h_12_PROLOG
+#define TCTDR_Source_TCTDRequiem_Spawner_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TCTDR_Source_TCTDRequiem_Spawner_h_12_PRIVATE_PROPERTY_OFFSET \
-	TCTDR_Source_TCTDRequiem_Spawner_h_12_SPARSE_DATA \
-	TCTDR_Source_TCTDRequiem_Spawner_h_12_RPC_WRAPPERS \
-	TCTDR_Source_TCTDRequiem_Spawner_h_12_INCLASS \
-	TCTDR_Source_TCTDRequiem_Spawner_h_12_STANDARD_CONSTRUCTORS \
+	TCTDR_Source_TCTDRequiem_Spawner_h_15_PRIVATE_PROPERTY_OFFSET \
+	TCTDR_Source_TCTDRequiem_Spawner_h_15_SPARSE_DATA \
+	TCTDR_Source_TCTDRequiem_Spawner_h_15_RPC_WRAPPERS \
+	TCTDR_Source_TCTDRequiem_Spawner_h_15_INCLASS \
+	TCTDR_Source_TCTDRequiem_Spawner_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define TCTDR_Source_TCTDRequiem_Spawner_h_12_GENERATED_BODY \
+#define TCTDR_Source_TCTDRequiem_Spawner_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TCTDR_Source_TCTDRequiem_Spawner_h_12_PRIVATE_PROPERTY_OFFSET \
-	TCTDR_Source_TCTDRequiem_Spawner_h_12_SPARSE_DATA \
-	TCTDR_Source_TCTDRequiem_Spawner_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	TCTDR_Source_TCTDRequiem_Spawner_h_12_INCLASS_NO_PURE_DECLS \
-	TCTDR_Source_TCTDRequiem_Spawner_h_12_ENHANCED_CONSTRUCTORS \
+	TCTDR_Source_TCTDRequiem_Spawner_h_15_PRIVATE_PROPERTY_OFFSET \
+	TCTDR_Source_TCTDRequiem_Spawner_h_15_SPARSE_DATA \
+	TCTDR_Source_TCTDRequiem_Spawner_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	TCTDR_Source_TCTDRequiem_Spawner_h_15_INCLASS_NO_PURE_DECLS \
+	TCTDR_Source_TCTDRequiem_Spawner_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

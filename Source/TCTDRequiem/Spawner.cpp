@@ -15,7 +15,11 @@ ASpawner::ASpawner()
 void ASpawner::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	WaveSetup = NewObject<UWaveSetup>();
+	m_EnemyList.Add(Basic, Enemy_Standard);
+	m_EnemyList.Add(Large, Enemy_Large);
+	m_EnemyList.Add(Fast, Enemy_Fast);
 }
 
 // Called every frame
@@ -30,12 +34,12 @@ void ASpawner::SpawnEnemy()
 		UWorld* world = GetWorld();
 
 
-	if(EnemySpawnlist == nullptr)
+	if(WaveSetup == nullptr)
 	{
 		return;
 	}
 	
-	if(EnemySpawnlist->ListOfEnemys.Num() == 0)
+	if(WaveSetup->m_EnemysToSpawn.Num() == 0)
 	{
 		return;	
 	}
@@ -44,15 +48,18 @@ void ASpawner::SpawnEnemy()
 	{
 		return;
 	}
-	
+
+
+
 	
 	SpawnEnemyPosition = GetActorLocation();
 	FRotator m_Rotator = GetActorRotation();
 
 	AEnemy* m_EnemyToSpawn;
 
-	m_EnemyToSpawn = Cast<AEnemy>(world->SpawnActor<AActor>(EnemySpawnlist->ListOfEnemys[0], SpawnEnemyPosition, m_Rotator));
-	EnemySpawnlist->ListOfEnemys.RemoveAt(0);
+	
+	m_EnemyToSpawn = Cast<AEnemy>(world->SpawnActor<AActor>(m_EnemyList[WaveSetup->m_EnemysToSpawn[0]], SpawnEnemyPosition, m_Rotator));
+	WaveSetup->m_EnemysToSpawn.RemoveAt(0);
 	m_EnemyToSpawn->SetWaypoints(Waypoints);
 }
 

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TCTDRequiem.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{D2361BF5-D3A8-40DE-B256-1369912DE6D2}</UniqueIdentifier>
+      <UniqueIdentifier>{1DCA7E72-214E-4F3E-811A-4DA83DBF1517}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TCTDRequiem.Target.cs">
       <Filter>Source</Filter>
@@ -15,7 +15,7 @@
     <None Include="..\..\.gitignore" />
     <None Include="..\..\README.md" />
     <Filter Include="Config">
-      <UniqueIdentifier>{8E170558-893F-44CE-9420-D9AA6DCD181D}</UniqueIdentifier>
+      <UniqueIdentifier>{C4A97E04-7682-4232-8942-9227169336FA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,12 +27,18 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TCTDRequiem">
-      <UniqueIdentifier>{3FCFFDC9-3C5E-47D3-904E-BC213AAADF5F}</UniqueIdentifier>
+      <UniqueIdentifier>{4E600675-4CC4-44F0-B2AF-1F8BBD7D4FE9}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TCTDRequiem\Enemy.cpp">
       <Filter>Source\TCTDRequiem</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\TCTDRequiem\Enemy.h">
+      <Filter>Source\TCTDRequiem</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TCTDRequiem\LevelMap.cpp">
+      <Filter>Source\TCTDRequiem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TCTDRequiem\LevelMap.h">
       <Filter>Source\TCTDRequiem</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\TCTDRequiem\Projectile.cpp">
@@ -78,6 +84,12 @@
       <Filter>Source\TCTDRequiem</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\TCTDRequiem\Turret.h">
+      <Filter>Source\TCTDRequiem</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TCTDRequiem\WaveSetup.cpp">
+      <Filter>Source\TCTDRequiem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TCTDRequiem\WaveSetup.h">
       <Filter>Source\TCTDRequiem</Filter>
     </ClInclude>
   </ItemGroup>

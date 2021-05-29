@@ -5,7 +5,9 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Enemy.h"
+#include "WaveSetup.h"
 #include "Spawner.generated.h"
+
 
 UCLASS()
 class TCTDREQUIEM_API ASpawner : public AActor
@@ -26,27 +28,31 @@ public:
 
 
 	UPROPERTY(VisibleAnywhere)
-     UStaticMeshComponent* m_Mesh;
+	UStaticMeshComponent* m_Mesh;
 
 	UPROPERTY(EditAnywhere)
-    TSubclassOf<AActor> Enemy_Standard;
+	TSubclassOf<AActor> Enemy_Standard;
 
 	UPROPERTY(EditAnywhere)
-    TSubclassOf<AActor> Enemy_Large;
+	TSubclassOf<AActor> Enemy_Large;
 
 	UPROPERTY(EditAnywhere)
-    TSubclassOf<AActor> Enemy_Speed;
-    
+	TSubclassOf<AActor> Enemy_Fast;
 
+
+	UWaveSetup * WaveSetup;
+
+	TMap<EnemyType,TSubclassOf<AActor>> m_EnemyList;
+	
 	UPROPERTY(EditAnywhere)
   TArray<FVector> Waypoints;
 
 	UPROPERTY(EditAnywhere)
-    FVector SpawnEnemyPosition;
+	FVector SpawnEnemyPosition;
 
 
 	
 	UFUNCTION()
-    virtual void SpawnEnemy();
+	virtual void SpawnEnemy();
 	
 };

@@ -37,20 +37,20 @@ void ATurret::ShootAtEnemy()
 		return;
 	}
 
-	//if(EnemyToAttack == nullptr)
-	//{
-	//	return;
-	//}
+	if(m_EnemyToAttack == nullptr)
+	{
+		return;
+	}
 	
 	FVector SpawnPosition = GetActorLocation();
 	FRotator m_Rotator = GetActorRotation();
 	
 	SpawnPosition.Z += ProjectileSpawnOffset;
 
-//AProjectile* ProjectileTemp;
-  //    
-//ProjectileTemp =  
-  //Cast<AProjectile>(GetWorld()->SpawnActor<AActor>(ProjectileRef, SpawnPosition, m_Rotator));
+   AProjectile* ProjectileTemp;
+      
+   ProjectileTemp =  Cast<AProjectile>(GetWorld()->SpawnActor<AActor>(ProjectileRef, SpawnPosition, m_Rotator));
+	ProjectileTemp->Activate(m_EnemyToAttack);
 }
 
 void ATurret::EnemyWasKilled(FString aName)
@@ -71,7 +71,7 @@ void ATurret::OnBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherA
 		EnemyInRange.Add(Enemy);
 		if(EnemyInRange.Num() == 1)
 		{
-			EnemyToAttack = Enemy;
+			m_EnemyToAttack = Enemy;
 		}
 	}
 }

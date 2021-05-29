@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeTCTDRequiem_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xFAB5FDD3,
-				0x2F16DECD,
+				0x9633C6F6,
+				0x13F720E4,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UECodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

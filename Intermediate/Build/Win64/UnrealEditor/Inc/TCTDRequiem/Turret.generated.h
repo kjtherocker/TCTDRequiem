@@ -16,22 +16,22 @@ struct FHitResult;
 #endif
 #define TCTDREQUIEM_Turret_generated_h
 
-#define TCTDR_Source_TCTDRequiem_Turret_h_14_SPARSE_DATA
-#define TCTDR_Source_TCTDRequiem_Turret_h_14_RPC_WRAPPERS \
+#define TCTDR_Source_TCTDRequiem_Turret_h_15_SPARSE_DATA
+#define TCTDR_Source_TCTDRequiem_Turret_h_15_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnEndOverlap); \
 	DECLARE_FUNCTION(execOnBeginOverlap); \
 	DECLARE_FUNCTION(execEnemyWasKilled);
 
 
-#define TCTDR_Source_TCTDRequiem_Turret_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+#define TCTDR_Source_TCTDRequiem_Turret_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execOnEndOverlap); \
 	DECLARE_FUNCTION(execOnBeginOverlap); \
 	DECLARE_FUNCTION(execEnemyWasKilled);
 
 
-#define TCTDR_Source_TCTDRequiem_Turret_h_14_INCLASS_NO_PURE_DECLS \
+#define TCTDR_Source_TCTDRequiem_Turret_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATurret(); \
 	friend struct Z_Construct_UClass_ATurret_Statics; \
@@ -40,7 +40,7 @@ public: \
 	DECLARE_SERIALIZER(ATurret)
 
 
-#define TCTDR_Source_TCTDRequiem_Turret_h_14_INCLASS \
+#define TCTDR_Source_TCTDRequiem_Turret_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesATurret(); \
 	friend struct Z_Construct_UClass_ATurret_Statics; \
@@ -49,7 +49,7 @@ public: \
 	DECLARE_SERIALIZER(ATurret)
 
 
-#define TCTDR_Source_TCTDRequiem_Turret_h_14_STANDARD_CONSTRUCTORS \
+#define TCTDR_Source_TCTDRequiem_Turret_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ATurret(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ATurret) \
@@ -62,7 +62,7 @@ private: \
 public:
 
 
-#define TCTDR_Source_TCTDRequiem_Turret_h_14_ENHANCED_CONSTRUCTORS \
+#define TCTDR_Source_TCTDRequiem_Turret_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ATurret(ATurret&&); \
@@ -73,28 +73,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ATurret)
 
 
-#define TCTDR_Source_TCTDRequiem_Turret_h_14_PRIVATE_PROPERTY_OFFSET
-#define TCTDR_Source_TCTDRequiem_Turret_h_11_PROLOG
-#define TCTDR_Source_TCTDRequiem_Turret_h_14_GENERATED_BODY_LEGACY \
+#define TCTDR_Source_TCTDRequiem_Turret_h_15_PRIVATE_PROPERTY_OFFSET
+#define TCTDR_Source_TCTDRequiem_Turret_h_12_PROLOG
+#define TCTDR_Source_TCTDRequiem_Turret_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TCTDR_Source_TCTDRequiem_Turret_h_14_PRIVATE_PROPERTY_OFFSET \
-	TCTDR_Source_TCTDRequiem_Turret_h_14_SPARSE_DATA \
-	TCTDR_Source_TCTDRequiem_Turret_h_14_RPC_WRAPPERS \
-	TCTDR_Source_TCTDRequiem_Turret_h_14_INCLASS \
-	TCTDR_Source_TCTDRequiem_Turret_h_14_STANDARD_CONSTRUCTORS \
+	TCTDR_Source_TCTDRequiem_Turret_h_15_PRIVATE_PROPERTY_OFFSET \
+	TCTDR_Source_TCTDRequiem_Turret_h_15_SPARSE_DATA \
+	TCTDR_Source_TCTDRequiem_Turret_h_15_RPC_WRAPPERS \
+	TCTDR_Source_TCTDRequiem_Turret_h_15_INCLASS \
+	TCTDR_Source_TCTDRequiem_Turret_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define TCTDR_Source_TCTDRequiem_Turret_h_14_GENERATED_BODY \
+#define TCTDR_Source_TCTDRequiem_Turret_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TCTDR_Source_TCTDRequiem_Turret_h_14_PRIVATE_PROPERTY_OFFSET \
-	TCTDR_Source_TCTDRequiem_Turret_h_14_SPARSE_DATA \
-	TCTDR_Source_TCTDRequiem_Turret_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	TCTDR_Source_TCTDRequiem_Turret_h_14_INCLASS_NO_PURE_DECLS \
-	TCTDR_Source_TCTDRequiem_Turret_h_14_ENHANCED_CONSTRUCTORS \
+	TCTDR_Source_TCTDRequiem_Turret_h_15_PRIVATE_PROPERTY_OFFSET \
+	TCTDR_Source_TCTDRequiem_Turret_h_15_SPARSE_DATA \
+	TCTDR_Source_TCTDRequiem_Turret_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	TCTDR_Source_TCTDRequiem_Turret_h_15_INCLASS_NO_PURE_DECLS \
+	TCTDR_Source_TCTDRequiem_Turret_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

@@ -6,6 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "Components/SphereComponent.h"
 #include "Enemy.h"
+#include "Projectile.h"
 
 #include "Turret.generated.h"
 UCLASS()
@@ -30,7 +31,7 @@ public:
 	float ProjectileSpawnOffset;
 
 	UPROPERTY(EditAnywhere)
-	AEnemy* EnemyToAttack;
+	AEnemy* m_EnemyToAttack;
 
 protected:
 	// Called when the game starts or when spawned

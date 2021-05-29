@@ -268,9 +268,9 @@ void EmptyLinkFunctionForGeneratedCodeTurret() {}
 #endif
 		static const UECodeGen_Private::FFloatPropertyParams NewProp_ProjectileSpawnOffset;
 #if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_EnemyToAttack_MetaData[];
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_m_EnemyToAttack_MetaData[];
 #endif
-		static const UECodeGen_Private::FObjectPropertyParams NewProp_EnemyToAttack;
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_m_EnemyToAttack;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -321,19 +321,19 @@ void EmptyLinkFunctionForGeneratedCodeTurret() {}
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATurret_Statics::NewProp_ProjectileSpawnOffset = { "ProjectileSpawnOffset", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATurret, ProjectileSpawnOffset), METADATA_PARAMS(Z_Construct_UClass_ATurret_Statics::NewProp_ProjectileSpawnOffset_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATurret_Statics::NewProp_ProjectileSpawnOffset_MetaData)) };
 #if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATurret_Statics::NewProp_EnemyToAttack_MetaData[] = {
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATurret_Statics::NewProp_m_EnemyToAttack_MetaData[] = {
 		{ "Category", "Turret" },
 		{ "ModuleRelativePath", "Turret.h" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATurret_Statics::NewProp_EnemyToAttack = { "EnemyToAttack", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATurret, EnemyToAttack), Z_Construct_UClass_AEnemy_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATurret_Statics::NewProp_EnemyToAttack_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATurret_Statics::NewProp_EnemyToAttack_MetaData)) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATurret_Statics::NewProp_m_EnemyToAttack = { "m_EnemyToAttack", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATurret, m_EnemyToAttack), Z_Construct_UClass_AEnemy_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATurret_Statics::NewProp_m_EnemyToAttack_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATurret_Statics::NewProp_m_EnemyToAttack_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATurret_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATurret_Statics::NewProp_SphereTrigger,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATurret_Statics::NewProp_EnemyInRange_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATurret_Statics::NewProp_EnemyInRange,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATurret_Statics::NewProp_ProjectileRef,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATurret_Statics::NewProp_ProjectileSpawnOffset,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATurret_Statics::NewProp_EnemyToAttack,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATurret_Statics::NewProp_m_EnemyToAttack,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ATurret_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ATurret>::IsAbstract,
@@ -362,7 +362,7 @@ void EmptyLinkFunctionForGeneratedCodeTurret() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATurret, 2129065986);
+	IMPLEMENT_CLASS(ATurret, 2520035112);
 	template<> TCTDREQUIEM_API UClass* StaticClass<ATurret>()
 	{
 		return ATurret::StaticClass();

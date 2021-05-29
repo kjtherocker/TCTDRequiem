@@ -9,5 +9,7 @@ C:\Program Files (x86)\UE_5.0EA\Engine\Intermediate\Build\Win64\UnrealEditor\Inc
 C:\Program Files (x86)\UE_5.0EA\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\SphereComponent.generated.h
 C:\Users\kylej\Documents\PortfolioSSd\TCTDR\Source\TCTDRequiem\Enemy.h
 C:\Users\kylej\Documents\PortfolioSSd\TCTDR\Intermediate\Build\Win64\UnrealEditor\Inc\TCTDRequiem\Enemy.generated.h
+C:\Users\kylej\Documents\PortfolioSSd\TCTDR\Source\TCTDRequiem\Projectile.h
+C:\Users\kylej\Documents\PortfolioSSd\TCTDR\Intermediate\Build\Win64\UnrealEditor\Inc\TCTDRequiem\Projectile.generated.h
 C:\Users\kylej\Documents\PortfolioSSd\TCTDR\Intermediate\Build\Win64\UnrealEditor\Inc\TCTDRequiem\Turret.generated.h
 C:\Users\kylej\Documents\PortfolioSSd\TCTDR\Intermediate\Build\Win64\UnrealEditor\Inc\TCTDRequiem\TowerNode.generated.h
